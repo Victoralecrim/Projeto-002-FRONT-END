@@ -97,13 +97,13 @@ span {
 }
 
 .bgc {
-    width: 850px;
-    height:700px;
+    width: 100%;
+    
 }
 
 .bgc-blue {
     width: 53.5rem;
-    height: 53rem;
+    height: 35rem;
     background-color: #5b99f0;
     position: absolute;
     top: 0;
