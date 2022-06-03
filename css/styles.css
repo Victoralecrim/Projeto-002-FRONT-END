@@ -20,6 +20,13 @@ body {
 
 /*Estilização do menu*/
 
+div #active::before{
+    content: "";
+    width: 100%;
+    color: #0075f6;
+    border-bottom: 1px solid #0075f6;
+}
+
 span {
     content: "";
     position: relative;
@@ -28,6 +35,7 @@ span {
     bottom: 0;
     left: 0;
     color: #007bff;
+    
 }
 
 
@@ -50,7 +58,7 @@ span {
     text-decoration: none;
 }
 
-#menu ul li a::after {
+#menu ul li a::before{
     content: "";
     width: 0%;
     height: 2px;
@@ -62,11 +70,13 @@ span {
     transition: 0.5s ease-in-out;
 }
 
-#menu a:hover::after {
+
+
+#menu a:hover::before{
     content: "";
     width: 100%;
-    background-color: #0075f6;
-
+    color: #0075f6;
+   background-color: #0075f6;
 }
 
 #menu {
@@ -87,12 +97,13 @@ span {
 }
 
 .bgc {
-    width: 750px;
+    width: 850px;
+    height:700px;
 }
 
 .bgc-blue {
-    width: 57rem;
-    height: 54rem;
+    width: 53.5rem;
+    height: 53rem;
     background-color: #5b99f0;
     position: absolute;
     top: 0;
@@ -112,14 +123,25 @@ span {
 
 .text3 {
     color: #0075f6;
-    font-size: 60px;
+    font-size: 100px;
     line-height: 1.2;
-    top: 10px;
+    top: 4px;
 }
 
 h1 {
-    font-size: 40px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 100px;
     margin-bottom: 5px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+#text4{
+    color: #0075f6;
+    font-size: 100px;
 }
 
 .btn-custom {
